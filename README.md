@@ -4,7 +4,11 @@ Screenshots
 ---
 
 Python
-![python]('./img/python-preview.png')
+![python](./img/python-preview.png)
 
 TypeScript
-![typescript]('./img/js-preview.png')
+![typescript](./img/js-preview.png)
+
+License
+---
+[MIT License](https://mit-license.kcak11.com/)
