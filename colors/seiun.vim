@@ -2,7 +2,7 @@
 " Author:      Manu Febie (manu.febie@gmail.com)
 " Webpage:     https://github.com/laseamru/yoshinpachi.vim
 " Description: Seiun means nebula
-" Last Change: 2021-09-23
+" Last Change: 2021-09-24
 
 hi clear
 
@@ -82,7 +82,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi pythonBuiltinType ctermbg=0 ctermfg=4 cterm=bold guibg=#202020 guifg=#7196a1 gui=bold
     hi pythonBuiltinFunc ctermbg=0 ctermfg=4 cterm=bold guibg=#202020 guifg=#7196a1 gui=bold
     hi pythonClass ctermbg=0 ctermfg=15 cterm=NONE guibg=#202020 guifg=#dfdfdf gui=NONE
-    hi pythonConditional ctermbg=0 ctermfg=13 cterm=italic guibg=#202020 guifg=#d7adb5 gui=italic
+    hi pythonConditional ctermbg=0 ctermfg=6 cterm=italic guibg=#202020 guifg=#80ab96 gui=italic
     hi pythonDecorator ctermbg=0 ctermfg=14 cterm=NONE guibg=#202020 guifg=#9fbfaf gui=NONE
     hi pythonDot ctermbg=0 ctermfg=4 cterm=NONE guibg=#202020 guifg=#7196a1 gui=NONE
     hi pythonDottedName ctermbg=0 ctermfg=14 cterm=NONE guibg=#202020 guifg=#9fbfaf gui=NONE
@@ -91,9 +91,9 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi pythonFunctionCall ctermbg=0 ctermfg=3 cterm=italic guibg=#202020 guifg=#e7a55f gui=italic
     hi pythonImport ctermbg=0 ctermfg=12 cterm=italic guibg=#202020 guifg=#9fb8bf gui=italic
     hi pythonNone ctermbg=0 ctermfg=8 cterm=italic guibg=#202020 guifg=#3d3d3d gui=italic
-    hi pythonStatement ctermbg=0 ctermfg=11 cterm=italic guibg=#202020 guifg=#ecb983 gui=italic
+    hi pythonStatement ctermbg=0 ctermfg=13 cterm=italic guibg=#202020 guifg=#d7adb5 gui=italic
     hi pythonStrFormat ctermbg=0 ctermfg=1 cterm=italic guibg=#202020 guifg=#EA7171 gui=italic
-    hi pythonRepeat ctermbg=0 ctermfg=5 cterm=italic guibg=#202020 guifg=#c28490 gui=italic
+    hi pythonRepeat ctermbg=0 ctermfg=14 cterm=italic guibg=#202020 guifg=#9fbfaf gui=italic
     hi pythonOperator ctermbg=0 ctermfg=12 cterm=italic guibg=#202020 guifg=#9fb8bf gui=italic
     hi pythonDecoratorName ctermbg=0 ctermfg=14 cterm=NONE guibg=#202020 guifg=#9fbfaf gui=NONE
     hi javaScriptBraces ctermbg=0 ctermfg=13 cterm=NONE guibg=#202020 guifg=#d7adb5 gui=NONE
@@ -172,7 +172,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi pythonBuiltinType ctermbg=black ctermfg=darkblue cterm=bold
     hi pythonBuiltinFunc ctermbg=black ctermfg=darkblue cterm=bold
     hi pythonClass ctermbg=black ctermfg=white cterm=NONE
-    hi pythonConditional ctermbg=black ctermfg=magenta cterm=italic
+    hi pythonConditional ctermbg=black ctermfg=darkcyan cterm=italic
     hi pythonDecorator ctermbg=black ctermfg=cyan cterm=NONE
     hi pythonDot ctermbg=black ctermfg=darkblue cterm=NONE
     hi pythonDottedName ctermbg=black ctermfg=cyan cterm=NONE
@@ -181,9 +181,9 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi pythonFunctionCall ctermbg=black ctermfg=darkyellow cterm=italic
     hi pythonImport ctermbg=black ctermfg=blue cterm=italic
     hi pythonNone ctermbg=black ctermfg=darkgray cterm=italic
-    hi pythonStatement ctermbg=black ctermfg=yellow cterm=italic
+    hi pythonStatement ctermbg=black ctermfg=magenta cterm=italic
     hi pythonStrFormat ctermbg=black ctermfg=darkred cterm=italic
-    hi pythonRepeat ctermbg=black ctermfg=darkmagenta cterm=italic
+    hi pythonRepeat ctermbg=black ctermfg=cyan cterm=italic
     hi pythonOperator ctermbg=black ctermfg=blue cterm=italic
     hi pythonDecoratorName ctermbg=black ctermfg=cyan cterm=NONE
     hi javaScriptBraces ctermbg=black ctermfg=magenta cterm=NONE
